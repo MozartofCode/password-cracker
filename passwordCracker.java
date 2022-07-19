@@ -52,7 +52,6 @@ public class passwordCracker {
 
 
     /// Checks whether the given number is the right one or not
-    /// maybe one number at a time??
 
     static boolean isPassword(String number, int place) {
         return number.equals(Character.toString(password.charAt(place)));
